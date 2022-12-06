@@ -21,12 +21,10 @@ figcaption,
 figure,
 li,
 ol[class],
-ul[class],
+ul,
 dd,
 dl {
   margin: 0;
-  font-family: inherit;
-  font-weight: inherit;
 }
 
 input,
@@ -54,6 +52,6 @@ ul[class] {
 }
 
 img {
-  min-width: 100%;
+  max-width: 100%;
   display: block;
 }

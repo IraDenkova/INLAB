@@ -5,11 +5,232 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>INLAB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  
-  
+  <header class="header">
+    <div class="header__bg">
+    <div class="container">
+      <div class="header__top">
+        <a class="logo" href="#" >
+          <img class="logo__img" src="images/icons/logo.svg" alt="logo">
+        </a>
+        <div class="menu-passive">
+          <button class="menu-passive__btn">
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <div class="header__content">
+        <h1 class="header__content-title">
+          WE DEVELOP <br>
+          YOUR SITES <br>
+          <span>WITH LABORATORY ACCURACY</span>
+        </h1>
+        <p class="header__content-text">
+          Internet marketing agency Inlab.Media: omnichannel is the key to fast promotion
+        </p>
+        <a class="header__content-btn" href="#">LEARN MORE</a>
+      </div>
+      <div class="menu-active">
+        <div class="menu-active__wrapper">
+          <button class="menu-active__btn">
+          <span></span>
+          </button>
+          <ul class="menu-active__list">
+            <li class="menu-active__item">
+              <a class="menu-active__item-link" href="#">INLAB MEDIA</a>
+            </li>
+            <li class="menu-active__item">
+              <a class="menu-active__item-link" href="#">PROMOTION GOALS</a>
+            </li>
+            <li class="menu-active__item">
+              <a class="menu-active__item-link" href="#">WHAT DO WE OFFER?</a>
+            </li>
+            <li class="menu-active__item">
+              <a class="menu-active__item-link" href="#">OUR METHODS</a>
+            </li>
+            <li class="menu-active__item">
+              <a class="menu-active__item-link" href="#">HOW DOES COOPERATION WORK?</a>
+            </li>
+          </ul>
+          <a class="menu-active__link" href="#">
+            LEAVE A REQUEST
+          </a>
+          <div class="menu-active__social">
+            <svg width="31" height="26" viewBox="0 0 31 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path 
+                d="M30.5083 3.83366C29.3854 4.34408 28.175 4.67949 26.9208 4.83991C28.2042 4.06699 29.1958 2.84199 29.6625 1.36908C28.4521 2.09824 27.1104 2.60866 25.6958 2.90033C24.5437 1.64616 22.925 0.916992 21.0875 0.916992C17.6604 0.916992 14.8604 3.71699 14.8604 7.17324C14.8604 7.66908 14.9188 8.15033 15.0208 8.60241C9.82917 8.33991 5.20625 5.84616 2.12917 2.06908C1.58958 2.98783 1.28333 4.06699 1.28333 5.20449C1.28333 7.37741 2.37708 9.30241 4.06875 10.3962C3.03333 10.3962 2.07083 10.1045 1.225 9.66699C1.225 9.66699 1.225 9.66699 1.225 9.71074C1.225 12.7441 3.38333 15.2816 6.24167 15.8503C5.71667 15.9962 5.1625 16.0691 4.59375 16.0691C4.2 16.0691 3.80625 16.0253 3.42708 15.9524C4.21458 18.417 6.50417 20.2545 9.26042 20.2982C7.13125 21.9899 4.43333 22.9816 1.4875 22.9816C0.991667 22.9816 0.495833 22.9524 0 22.8941C2.77083 24.6732 6.06667 25.7087 9.59583 25.7087C21.0875 25.7087 27.4021 16.1712 27.4021 7.90241C27.4021 7.62533 27.4021 7.36282 27.3875 7.08574C28.6125 6.21074 29.6625 5.10241 30.5083 3.83366Z"
+                fill="#F3F5FB" />
+            </svg>
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M9.12911 0H21.3791C26.0458 0 29.8374 3.79167 29.8374 8.45833V20.7083C29.8374 22.9516 28.9463 25.103 27.3601 26.6893C25.7738 28.2755 23.6224 29.1667 21.3791 29.1667H9.12911C4.46244 29.1667 0.670776 25.375 0.670776 20.7083V8.45833C0.670776 6.21504 1.56192 4.06363 3.14816 2.47739C4.73441 0.891143 6.88582 0 9.12911 0M8.83744 2.91667C7.44506 2.91667 6.1097 3.46979 5.12513 4.45436C4.14057 5.43892 3.58744 6.77428 3.58744 8.16667V21C3.58744 23.9021 5.93536 26.25 8.83744 26.25H21.6708C23.0632 26.25 24.3985 25.6969 25.3831 24.7123C26.3677 23.7277 26.9208 22.3924 26.9208 21V8.16667C26.9208 5.26458 24.5729 2.91667 21.6708 2.91667H8.83744ZM22.9104 5.10417C23.3938 5.10417 23.8575 5.29622 24.1994 5.63809C24.5412 5.97995 24.7333 6.44362 24.7333 6.92708C24.7333 7.41055 24.5412 7.87422 24.1994 8.21608C23.8575 8.55794 23.3938 8.75 22.9104 8.75C22.4269 8.75 21.9632 8.55794 21.6214 8.21608C21.2795 7.87422 21.0874 7.41055 21.0874 6.92708C21.0874 6.44362 21.2795 5.97995 21.6214 5.63809C21.9632 5.29622 22.4269 5.10417 22.9104 5.10417ZM15.2541 7.29167C17.188 7.29167 19.0426 8.05989 20.4101 9.42735C21.7775 10.7948 22.5458 12.6495 22.5458 14.5833C22.5458 16.5172 21.7775 18.3719 20.4101 19.7393C19.0426 21.1068 17.188 21.875 15.2541 21.875C13.3202 21.875 11.4656 21.1068 10.0981 19.7393C8.73067 18.3719 7.96244 16.5172 7.96244 14.5833C7.96244 12.6495 8.73067 10.7948 10.0981 9.42735C11.4656 8.05989 13.3202 7.29167 15.2541 7.29167M15.2541 10.2083C14.0938 10.2083 12.981 10.6693 12.1605 11.4897C11.34 12.3102 10.8791 13.423 10.8791 14.5833C10.8791 15.7437 11.34 16.8565 12.1605 17.6769C12.981 18.4974 14.0938 18.9583 15.2541 18.9583C16.4144 18.9583 17.5272 18.4974 18.3477 17.6769C19.1682 16.8565 19.6291 15.7437 19.6291 14.5833C19.6291 13.423 19.1682 12.3102 18.3477 11.4897C17.5272 10.6693 16.4144 10.2083 15.2541 10.2083Z"
+                fill="#F3F5FB" />
+            </svg>
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M15.2541 0.0585938C7.23328 0.0585938 0.670776 6.60651 0.670776 14.6711C0.670776 21.9628 6.00828 28.0148 12.9791 29.1086V18.9003H9.27494V14.6711H12.9791V11.4482C12.9791 7.78776 15.152 5.77526 18.4916 5.77526C20.0812 5.77526 21.7437 6.05234 21.7437 6.05234V9.65443H19.9062C18.0979 9.65443 17.5291 10.7773 17.5291 11.9294V14.6711H21.5833L20.927 18.9003H17.5291V29.1086C20.9656 28.5659 24.0948 26.8125 26.3519 24.1649C28.609 21.5174 29.8452 18.1502 29.8374 14.6711C29.8374 6.60651 23.2749 0.0585938 15.2541 0.0585938Z"
+                fill="#F3F5FB" />
+            </svg>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </header>
+  <section class="content">
+    <div class="container">
+      <div class="content__wrapper">
+      <div class="content__inner">
+        <h2 class="content__title">
+          INLAB
+        </h2>
+        <p class="content__text">We specialize in promoting business on the Internet through omnichannel. This is how we help our clients get traffic and
+        increase sales. And we guarantee results.
+        </p>
+        <p class="content__text">It is possible to achieve positive results in the natural (organic) search engine results only with an integrated
+        approach to Internet marketing.</p>
+        <p class="content__text">The time to achieve high positions and receive targeted traffic through manipulative schemes has passed.</p>
+      </div>
+      <img class="content__img" src="images/hand.png" alt="hand">
+      </div>
+      <img class="content__letter" src="images/icons/letter_i.svg" alt="">
+    </div>
+  </section>
+  <section class="reason">
+    <div class="container">
+      <h2 class="title reason__title">
+        WHY DO YOU NEED TO PROMOTE YOUR COMPANY WEBSITE?
+      </h2>
+      <p class="reason__text">
+        Any business, no matter how successful it is, in any case, pursues 2 goals - connecting additional advertising channels
+        and increasing the number of incoming customers. On the Internet, these goals are solved in the most effective way.
+      </p>
+      <div class="reason__numbers">
+        <div class="reason__numbers-item reason__numbers-item--1">
+          <span class="reason__numbers-num">3</span>
+          <p class="reason__numbers-text">YEARS OF EFFICIENT WORK</p>
+        </div>
+        <div class="reason__numbers-item reason__numbers-item--2">
+          <span class="reason__numbers-num">34</span>
+          <p class="reason__numbers-text">ADVANCED SITES</p>
+        </div>
+        <div class="reason__numbers-item reason__numbers-item--3">
+          <span class="reason__numbers-num">3</span>
+          <p class="reason__numbers-text">PROJECT SPECIALIST</p>
+        </div>
+        <div class="reason__numbers-item reason__numbers-item--4">
+          <span class="reason__numbers-num">54</span>
+          <p class="reason__numbers-text">REQUEST IN THE TOP</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="promotion">
+    <div class="container">
+      <div class="promotion__wrapper">
+        <div class="promotion__date">
+          <h2 class="title promotion__date-title">SITE PROMOTION OUT OF DATE?</h2>
+          <p class="promotion__date-text">Despite the fact that many companies today promote through social networks, such a channel as traffic to the site from
+          search engines should by no means be ignored.       
+          </p>
+          <p class="promotion__date-text">The conversion from targeted visitors is quite high here. to neglect them, because potential customers are looking for
+          you on the Internet and nothing can be done about it.</p>
+          <p class="promotion__date-text">But, if they don’t find you there, they will easily see your competitors who are engaged in the promotion of their site.
+          The solution to this issue is the most logical - search engine optimization and promotion of the resource, you need to
+          deal with.</p>
+        </div>
+        <div class="promotion__offer">
+          <h2 class="title promotion__offer-title">
+            WHAT DO WE OFFER?
+          </h2>
+          <p class="promotion__offer-text">
+            Our company offers not just SEO promotion services, but effective strategies to increase the popularity of your brand in
+            search engines, the traffic of target customers, which will bring you profit.
+          </p>
+          <span class="promotion__offer-letters">INLAB</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="methods">
+    <div class="container">
+      <h2 class="title methods__title">OUR METHODS</h2>
+      <div class="methods__inner">
+        <div class="methods__item">
+          <h4 class="methods__item-title">  
+            CLASSIC <br>
+            SEO PROMOTION
+          </h4>
+          <p class="methods__item-text">
+            competitor analysis, work with keywords and search engines, content.
+          </p>
+        </div>
+        <div class="methods__item">
+          <h4 class="methods__item-title">
+            AUDIT AND IMPROVE USABILITY
+          </h4>
+          <p class="methods__item-text">
+            coding, technical optimization, increase in conversion by finalizing the content for the target audience.
+          </p>
+        </div>
+        <div class="methods__item">
+          <h4 class="methods__item-title">
+            CONTEXT ADVERTISING
+          </h4>
+          <p class="methods__item-text">
+            work with Yandex Direct and Google Adwords, setting goals, creating advertisements, adjusting the results.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="structure">
+    <div class="container">
+      <h2 class="title structure__title">HOW COOPERATION IS STRUCTURED</h2>
+      <div class="structure__wrapper">
+        <div class="structure__item structure__item--1">
+          Request
+        </div>
+        <div class="structure__item structure__item--2">
+          Research the niche and competitors
+        </div>
+        <div class="structure__item structure__item--3">
+          Cost calculation, creating a strategy
+        </div>
+        <div class="structure__item structure__item--4">
+          Agreeing and signing of the contract
+        </div>
+        <div class="structure__item structure__item--5">
+          Search, technical optimization
+        </div>
+        <div class="structure__item structure__item--6">
+          Setting up and maintaining the context
+        </div>
+        <div class="structure__item structure__item--7">
+          Writing content
+        </div>
+        <div class="structure__item structure__item--8">
+          Study of the most effective promotion channels
+        </div>
+        <div class="structure__end-item">
+          ANALYSIS OF THE RESULTS, ADJUSTMENT OF GOALS AND METHODS
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <footer class="footer">
+
+  </footer>
 
   
   <script src="js/main.min.js"></script>
