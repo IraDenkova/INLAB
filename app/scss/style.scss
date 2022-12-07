@@ -28,7 +28,7 @@
     line-height: 78px;
     @extend %intro-700;
     max-width: 688px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     span{
       color: #FFA110;
     }
@@ -40,7 +40,7 @@
   &__content-text{
     max-width: 510px;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 37px;
     margin-bottom: 95px;
   }
   &__content-btn{
@@ -522,8 +522,100 @@
     }
   }
 }
-
-
+.time{
+  padding: 120px 0 170px;
+  background-color: #121E44;
+  &__title{
+    margin-bottom: 70px;
+    max-width: 600px;
+  }
+  &__text{
+    max-width: 580px;
+    font-size: 20px;
+    line-height: 32px;
+    & + .time__text{
+      margin-top: 40px;
+    }
+  }
+  &__img{
+    position: absolute;
+    right: 0;
+    transform: translateY(-73%)
+  }
+}
+.footer{
+  padding: 170px 0 120px;
+  background-image: url('../images/footer_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__title{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+  }
+  &__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__bottom-item{
+    padding-left: 46px;
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      background-repeat: no-repeat;
+      background-position: center;
+      left: 0;
+      top: -4px;
+      width: 35px;
+      height: 35px;
+    }
+  }
+  &__bottom-item--phone::before{
+    background-image: url('../images/icons/phone.svg');
+  }
+  &__bottom-item--mail::before{
+    background-image: url('../images/icons/mail.svg');
+  }
+  &__bottom-sociallink{
+    padding: 0 6px;
+  }
+}
+.form{
+  max-width: 395px;
+  width: 100%;
+  margin: 0 auto 200px;
+  &__label{
+    display: block;
+    & + .form__label{
+      margin-top: 30px;
+    }
+  }
+  &__input{
+    display: block;
+    font-size: 20px;
+    margin-top: 7px;
+    width: 100%;
+    padding: 21px 24px 19px;
+    &::placeholder{
+      font-size: 18px;
+      line-height: 29px;
+      color: #BFB4C5;
+      @extend %roboto-300;
+    }
+  }
+  &__btn{
+    @extend %btn;
+    border: none;
+    padding: 28px 77px;
+    cursor: pointer;
+  }
+  &__btnbox{
+    margin-top: 40px;
+    text-align: center;
+  }
+}
 
 
 
